@@ -2,3 +2,9 @@
     color: var(--clr-secondary-alt);
     font-size: 2rem;
 }
+
+@media only screen and (max-width: 28rem) {
+    #title {
+        font-size: 1.8rem;
+    }
+}
