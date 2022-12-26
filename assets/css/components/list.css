@@ -1,0 +1,25 @@
+.list__item {
+    border: .3rem solid currentColor;
+    border-radius: .5rem;
+    color: var(--clr-secondary);
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    min-height: 6rem;
+    min-width: 30rem;
+}
+
+.list__item a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+.list__item:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 280px) {
+    .list__item {
+        min-width: 26rem;
+    }
+}
