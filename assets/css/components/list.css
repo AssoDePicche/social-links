@@ -11,14 +11,16 @@
 
 .list__item a {
     color: currentColor;
+    text-align: center;
     text-decoration: none;
+    width: 100%;
 }
 
-.list__item:hover {
+.list__item a:hover {
     cursor: pointer;
 }
 
-@media only screen and (max-width: 280px) {
+@media only screen and (max-width: 28rem) {
     .list__item {
         min-width: 26rem;
     }
