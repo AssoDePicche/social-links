@@ -1,4 +1,4 @@
-.list__item {
+.btn {
     border: .3rem solid currentColor;
     border-radius: .5rem;
     color: var(--clr-secondary);
@@ -9,19 +9,20 @@
     min-width: 30rem;
 }
 
-.list__item a {
-    color: currentColor;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
+.btn:hover {
+    background-color: var(--clr-secondary);
+    color: var(--clr-primary);
+    transform: scale(1.025);
+    transition: all 300ms ease;
 }
 
-.list__item a:hover {
-    cursor: pointer;
+a {
+    color: currentColor;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 28rem) {
-    .list__item {
+    .btn {
         min-width: 26rem;
     }
 }
