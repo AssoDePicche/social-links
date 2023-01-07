@@ -1,28 +1,32 @@
 .btn {
-    border: .3rem solid currentColor;
-    border-radius: .5rem;
-    color: var(--clr-secondary);
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 3rem;
-    min-height: 6rem;
-    min-width: 30rem;
+  border: 0.3rem solid currentColor;
+  border-radius: 0.5rem;
+  color: var(--clr-secondary);
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 3rem;
+  min-height: 6rem;
+  min-width: 30rem;
+  transition: all 300ms ease;
 }
 
 .btn:hover {
-    background-color: var(--clr-secondary);
-    color: var(--clr-primary);
-    transform: scale(1.025);
-    transition: all 300ms ease;
+  background-color: var(--clr-secondary);
+  color: var(--clr-primary);
+  transform: scale(1.025);
+}
+
+.btn:active {
+  transform: scale(0.975);
 }
 
 a {
-    color: currentColor;
-    text-decoration: none;
+  color: currentColor;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 28rem) {
-    .btn {
-        min-width: 26rem;
-    }
+  .btn {
+    min-width: 26rem;
+  }
 }
